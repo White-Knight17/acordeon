@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Websites ACORDEON</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!--Wrapp-->
+    <div class="wrapp">
+      <!--Section-->
+      <div class="section">
+        <h1 class="title">Acordeon <span class="stroke">Fighter</span></h1>
+
+        <div class="content">
+          <div class="acordeon">
+            <ul class="acordeon_list">
+              <li class="acordeon_item active" data-id="1">
+                <h3 class="acorden_header">
+                  <span class="acordeon_bl">
+                    <span class="acordeon_bl-line"></span>
+                    <span class="acordeon_bl-line"></span>
+                  </span>
+                  <span class="acordeon_title">Motal Kombat</span>
+                </h3>
+                <div class="acordeon_body">
+                  <p class="acordeon_description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis, dolore.
+                  </p>
+                </div>
+              </li>
+
+              <li class="acordeon_item" data-id="2">
+                <h3 class="acorden_header">
+                  <span class="acordeon_bl">
+                    <span class="acordeon_bl-line"></span>
+                    <span class="acordeon_bl-line"></span>
+                  </span>
+                  <span class="acordeon_title">Street Fighter</span>
+                </h3>
+                <div class="acordeon_body">
+                  <p class="acordeon_description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis, dolore.
+                  </p>
+                </div>
+              </li>
+
+              <li class="acordeon_item" data-id="3">
+                <h3 class="acorden_header">
+                  <span class="acordeon_bl">
+                    <span class="acordeon_bl-line"></span>
+                    <span class="acordeon_bl-line"></span>
+                  </span>
+                  <span class="acordeon_title">FRAME DATA</span>
+                </h3>
+                <div class="acordeon_body">
+                  <p class="acordeon_description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis, dolore.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="acordeon_img">
+          <img id="1-img" src="img/1.jpg" class="acord_img active" />
+          <img id="2-img" src="img/2.jpg" class="acord_img" />
+          <img id="3-img" src="img/3.jpg" class="acord_img" />
+        </div>
+      </div>
+      <!--End Section-->
+
+      <!--Cursor-->
+      <span class="cursor">
+        <span class="cursor_dot"></span>
+      </span>
+      <!--End Cursor-->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
